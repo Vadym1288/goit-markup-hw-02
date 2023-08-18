@@ -12,10 +12,6 @@ color: #434455;
 button {
     cursor: pointer;
 }
-.button:hover,
-.button:focus {
-background-color: #404BBF
-}
 .logotype {
 color: #4D5AE5; 
 font-family: 'Raleway', sans-serif;
@@ -45,18 +41,21 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;}
-.address:hover,
-.address:focus {
+.contacts-header {
+font-style: normal;
+}
+.list-contakts-item:hover,
+.list-contakts-item:focus {
 color: #404bbf
 }
-.address {
+.list-contakts-item {
 color: #434455;
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-.address {
+.list-contakts-item {
 font-style: normal;
 }
 .main-section {
@@ -70,7 +69,11 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 }
-.button {
+.button-hero:hover,
+.button-hero:focus {
+background-color: #404BBF
+}
+.button-hero {
 background: #4D5AE5;
 color: #FFF;
 font-size: 16px;
@@ -109,6 +112,9 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;    
 }
+.list-personel {
+background-color: #FFFFFF;
+}
 .name-personel {
 color: #2E2F42;
 text-align: center;
@@ -125,7 +131,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.5;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 .title-portfolio {
 color: #2E2F42;
