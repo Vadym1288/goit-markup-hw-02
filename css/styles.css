@@ -99,9 +99,6 @@ letter-spacing: 0.02em;
 .section-personel {
     background-color: #F4F4FD;
 }
-.list-personel {
-    background-color: #FFFFFF;
-}
 .title-personel {
     color: #2E2F42;
     text-align: center;
@@ -112,8 +109,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
     text-transform: capitalize;    
 }
-.list-personel {
-background-color: #FFFFFF;
+.list-item-personel {
+    background-color:  #FFFFFF;
 }
 .name-personel {
 color: #2E2F42;
